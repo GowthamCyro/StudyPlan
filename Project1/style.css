@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'a';
+    src: url('Assets/jost-variable.ttf');
+}
+
+@font-face {
+    font-family:'b';
+    src: url('Assets/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf');
+}
+
+@font-face {
+    font-family: 'c';
+    src: url('Assets/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100vw;
+    position: absolute;
+    padding: 0px 50px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #0A46E7;
+    color: white;
+    font-family: 'b';
+    border: 0.5px solid white;
+    margin-right: 10px;
+}
+
+nav > img{
+    margin-top: -8vh;
+    margin-left: -15vh;
+    width: 13%;
+    background: transparent;
+}
+
+#b1{
+    padding: 15px 32px;
+    border-radius: 25px;
+    background-color:white;
+    font-weight: 100;
+    letter-spacing: 2;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'c';
+    border: 0.5px solid white;
+}
+
+#content{
+    position: absolute;
+    bottom: 6%;
+    height: 40vh;
+    width: 45%;
+    left: 12%;
+}
+
+#c1 > h2{
+    font-size: 65px;
+    font-family: 'b';
+    font-weight: 100;
+    line-height: 70px;
+    margin-bottom: 17px;
+    color: white;
+}
+
+#c2{
+    display: flex;
+    align-items: center;
+    font-family: 'c';
+    font-weight: 100;
+    gap: 50px;
+    color: white;
+}
+
+#c2>p{
+    width: 50%;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family: 'a';
+    padding: 0px 8vw;
+}
+
+#page2>h2{
+    font-weight: 100;
+    margin-bottom: 2.5vw;
+    color: white;
+}
+
+#page2>h1{
+    line-height: 1.2;
+    font-size: 4vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.356);
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+}
+
+
